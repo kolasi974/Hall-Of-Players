@@ -1,5 +1,4 @@
-﻿using System;
-namespace Api;
+﻿namespace Api;
 
 public class Startup
 {

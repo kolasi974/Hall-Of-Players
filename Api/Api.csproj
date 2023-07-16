@@ -13,4 +13,14 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Entities\" />
+    <None Remove="Entities\Database\" />
+    <None Remove="Entities\DTO\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="Entities\Database\" />
+    <Folder Include="Entities\DTO\" />
+  </ItemGroup>
 </Project>
